@@ -1,117 +1,70 @@
-
-
-body {margin: 0;}
-
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+body {
+  margin:0;
+  padding:0;
 }
 
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+/* Increase the font size of the <h1> element */
+.header h1 {
+font-size: 40px;
+}
+.header p {
+  font-size: 25px;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li .active {background-color: #4CAF50;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+#greet {
+  font-size:40px;
+  background-color:#aaa;
 }
+
+.fakeimg {
+  
+  background: #aaa;
+}
+
 
 body {
-  font-family: 'Tangerine', serif;
-  font-size: 48px;
-  text-shadow: 4px 4px 4px #aaa;
-}
-
-h1 {
-  text-align:center;
-  font-size:2em;
-  margin: auto;
+font-family: 'Tangerine', serif;
+font-size: 48px;
+text-shadow: 4px 4px 4px #aaa;
 }
 
 
-
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li .active {background-color: #4CAF50;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
-
-body {
-  font-family: 'Tangerine', serif;
-  font-size: 48px;
-  text-shadow: 4px 4px 4px #aaa;
-}
-
-h1 {
-  text-align:center;
-
+#qu p {
+  color:red;
+  font-size:50px;
+  
 }
 
 
-div.gallery {
-  border: 1px solid #ccc;
+.fa {
+
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
+footer {
+  text-align:right;
+  margin-bottom:0;
+}
+.fa:hover {
+  opacity: 0.7;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
+.fa-facebook {
+background: #3B5998;
+color: white;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
+.fa-twitter {
+background: #55ACEE;
+color: white;
 }
 
-* {
-  box-sizing: border-box;
-}
 
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
+.fa-linkedin {
+background: #007bb5;
+color: white;
 }
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
